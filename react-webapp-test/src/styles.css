@@ -1,0 +1,12 @@
+.App {
+    font-family: sans-serif;
+}
+
+#maps {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 10px;
+}
