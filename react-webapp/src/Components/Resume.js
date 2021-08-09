@@ -14,7 +14,7 @@ class Resume extends Component {
     if (!this.props.data) return null;
 
     const skillmessage = this.props.data.skillmessage;
-    const education = this.props.data.education.map(function(education) {
+    const MapContents = this.props.data.education.map(function(MapContents) {
       return (
         <MapContainer />
       );
@@ -44,23 +44,7 @@ class Resume extends Component {
 
           <div className="nine columns main-col">
             <div className="row item">
-              <div className="twelve columns">{education}</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row skill">
-          <div className="three columns header-col">
-            <h1>
-              <span>Skills</span>
-            </h1>
-          </div>
-
-          <div className="nine columns main-col">
-            <p>{skillmessage}</p>
-
-            <div className="bars">
-              <ul className="skills">{skills}</ul>
+              <div>{MapContents}</div>
             </div>
           </div>
         </div>

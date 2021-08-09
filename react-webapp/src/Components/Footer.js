@@ -28,6 +28,13 @@ class Footer extends Component {
                   Styleshout
                 </a>
               </li>
+              <br />
+              <li>
+                <address>
+                  <p>경기 화성시 동탄3동</p>
+                  <p>031-234-5678</p>
+                </address>
+              </li>
             </ul>
           </div>
           <div id="go-top">

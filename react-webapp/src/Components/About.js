@@ -62,8 +62,8 @@ class About extends Component {
 
                 <div className="card-body">
                   <p>
-                    React로 개발되어 타 웹 사이트에 비해 <br />
-                    더욱 빠르게 반응합니다
+                    React로 개발되어 타 웹 사이트에 비해
+                    더욱 빠르게 반응합니다.
                   </p>
                 </div>
               </div>
@@ -89,7 +89,7 @@ class About extends Component {
             <div className="col">
               <div className="card text-dark bg-info lg-3">
                 <div className="card-header">
-                  <h2>별도의 로그인/회원가입 없이도 이용 가능</h2>
+                  <h2>별도의 로그인/회원가입 없이도 <br /> 이용 가능</h2>
                 </div>
 
                 <div className="card-body">
