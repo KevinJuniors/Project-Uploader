@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import MapContainer from "./maps/MapContainer";
+
 class Resume extends Component {
   getRandomColor() {
     let letters = "0123456789ABCDEF";
@@ -14,9 +15,11 @@ class Resume extends Component {
     if (!this.props.data) return null;
 
     const skillmessage = this.props.data.skillmessage;
-    const MapContents = this.props.data.education.map(function(MapContents) {
+    const education = this.props.data.education.map(function(education) {
       return (
-        <MapContainer />
+        <div key={education}>
+          <MapContainer />
+        </div>
       );
     });
 
@@ -44,7 +47,23 @@ class Resume extends Component {
 
           <div className="nine columns main-col">
             <div className="row item">
-              <div>{MapContents}</div>
+              <div>{education}</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="row skill">
+          <div className="three columns header-col">
+            <h1>
+              <span>Skills</span>
+            </h1>
+          </div>
+
+          <div className="nine columns main-col">
+            <p>{skillmessage}</p>
+
+            <div className="bars">
+              <ul className="skills">{skills}</ul>
             </div>
           </div>
         </div>

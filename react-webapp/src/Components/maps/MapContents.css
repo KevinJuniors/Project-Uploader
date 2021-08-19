@@ -48,7 +48,7 @@
 
 #category {
     position: absolute;
-    top: 50px;
+    top: 70px;
     left: 5px;
     border-radius: 5px;
     border: 1px solid #909090;
@@ -95,32 +95,13 @@
         no-repeat;
 }
 
-#category li .bank {
-    background-position: -10px 0;
-}
-
-#category li .mart {
-    background-position: -10px -36px;
-}
-
-#category li .pharmacy {
-    background-position: -10px -72px;
-}
-
-#category li .oil {
-    background-position: -10px -108px;
-}
-
 #category li .cafe {
     background-position: -10px -144px;
 }
 
-#category li .store {
-    background-position: -10px -180px;
-}
-
 #category li.on .category_bg {
     background-position-x: -46px;
+    display: block;
 }
 
 .placeinfo_wrap {

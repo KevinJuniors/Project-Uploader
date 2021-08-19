@@ -284,12 +284,11 @@ const MapContainer = ({ kakaoMaps }) => {
         <span id="centerAddr"></span>
          <ul id="category">
           <li id="CE7" className="cafeIcon" data-order="4">
-            <span className="category_bg cafe" style={{zIndex: "9999"}}></span>
+            <p className="categoryText">카페</p>
+            <span className="category_bg cafe"></span>
           </li>
         </ul>
       </div>
-
-      <img src="images/bg-image.jpg" alt="블랙 이미지" style={{zIndex: "99999"}} />
     </div>
   )
 }
